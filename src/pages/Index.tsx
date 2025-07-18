@@ -17,7 +17,7 @@ const Index = () => {
       <div className="text-center z-10">
         {/* Kawaii title */}
         <h1 className="text-6xl font-bold mb-8 text-pink-400 tracking-wider">
-          KAWAII SITE
+          МИЛЫЙ САЙТ
         </h1>
         
         {/* Cute subtitle */}
