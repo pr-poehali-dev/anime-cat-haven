@@ -40,8 +40,18 @@ const Index = () => {
           {heartClicked ? '✨ Ты самая лучшая! ✨' : 'Нажми на сердечко! 🐱'}
         </p>
 
+        {/* Navigation button */}
+        <div className="mt-12 mb-8">
+          <a 
+            href="/about"
+            className="bg-pink-400 hover:bg-pink-500 text-white font-bold py-3 px-6 rounded-full transition-all duration-300 hover:scale-105 shadow-lg inline-block"
+          >
+            👫 О нас
+          </a>
+        </div>
+
         {/* Decorative cats */}
-        <div className="flex justify-center gap-8 mt-12">
+        <div className="flex justify-center gap-8">
           <span className="text-4xl animate-bounce" style={{ animationDelay: '0s' }}>🐱</span>
           <span className="text-4xl animate-bounce" style={{ animationDelay: '0.5s' }}>🌸</span>
           <span className="text-4xl animate-bounce" style={{ animationDelay: '1s' }}>🐱</span>
