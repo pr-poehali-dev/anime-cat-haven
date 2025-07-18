@@ -61,6 +61,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				kawaii: {
+					pink: '#FFB6C1',
+					'pink-dark': '#FF69B4',
+					'pink-light': '#FFC0CB',
+					'pink-soft': '#FFDEE2',
+					white: '#FFFFFF'
 				}
 			},
 			borderRadius: {
